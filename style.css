@@ -1,0 +1,737 @@
+/* alert */
+.alert_i{
+    float: right;
+}
+
+/* ================ index ===============*/
+
+/* header */
+
+.top{
+    margin-top: 20px;
+    width: 1600px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.top h1{
+    color:  rgb(0,102,0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: bold;
+}
+
+.top h1 span{
+    color:  rgb(0,102,0);
+}
+
+.top_img{
+    width: 150px;
+    height: 120px;
+}
+
+.top_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.notification{
+    width: 1500px;
+    height: 40px;
+}
+
+.admin{
+    float: left;
+    width: 1500px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.admin h6{
+    color: rgb(0,66,37);
+    padding-top: 10px;
+    text-align: right;
+   
+}
+
+.admin h6 a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    border: 2px solid darkblue;
+    border-radius: 100px;
+}
+
+.admin h6 a:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    border: 2px solid rgb(245, 245, 248);
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+
+}
+
+.nav{
+    width: 1600px;
+    height: 70px;
+    background-color: rgb(0,145,80);
+}
+.nav ul{
+    display: flex;  
+    align-items: center;  
+    margin: auto;
+}
+
+.nav li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:   rgb(255,240,245);
+    text-decoration: none;
+    padding: 0px 20px 20px 22px;
+
+}
+
+.active{
+    background-color:  rgb(255,165,0);
+    height: 70px;
+    padding: 15px; 
+}
+
+.nav ul li :hover{
+    color: rgb(44, 0, 4);
+    
+}
+
+
+.space{
+    visibility: hidden;
+}
+
+/* body */
+.home_image{
+    width: 1600px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.home_image p{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:   rgb(0,145,80);
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    top: 20px;
+    left: 280px;
+}
+
+.home_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: 100% 40%;
+}
+
+.crops{
+	background: linear-gradient(to right, rgb(202,224,13), rgb(5,144,51));
+    width: 650px;
+    height: 220px;
+    display: flex;
+}
+
+.crop_img{
+    width: 1000px;
+    height: 200px;
+    float: right;
+}
+
+.crop_img img{
+    padding-left: 10px;
+    width:100%;
+    height: 100%;
+}
+
+.crop_text h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(255,255,255);
+    margin-top: 20px;
+}
+
+.crop_text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(255,255,255);
+}
+
+.farmer_img{
+    margin: 10px 10px 0px 50px;
+    float: left;
+    height: 600px;
+    width: 600px;
+}
+
+.farmer_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.farmer_text{
+    float: right;
+    width: 860px;
+    height: 500px;
+    line-height: 1cm;
+    margin-right: 20px;
+}
+
+.farmer_text h2{
+    color:  rgb(0,66,37);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.farmer_text p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(0,66,37);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2cm;
+}
+
+.soil{
+    background-color:  rgb(23,114,69);
+}
+
+.soil h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(254,254,250);
+    padding-top: 10px;
+    text-align: center;
+}
+
+.soil_area{
+    display: flex; 
+}
+
+.soil_name{
+    width : 400px;
+    height: 300px;
+    margin-top: 30px;
+    
+}
+
+.each_soil_name{
+    background-color: rgb(254,254,250);
+    width:350px;
+    height: 250px;
+    border: 2px solid rgb(11, 11, 11);
+    margin: auto;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(11, 11, 11);
+}
+
+.each_soil_name h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.each_soil_name p{
+    text-align: center;
+}
+
+
+
+/* footer */
+
+.footer{
+    padding: 10px;
+    background-color: rgb(11, 11, 11);
+    color: rgb(253, 249, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    
+    color: #fcf9f9;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 100px;
+    height: 80px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+
+.social-icon li a:hover {
+    color: rgb(255,140,0);
+    transform: scale(1.1);
+}
+
+/* ======================== information ======================*/
+.crops_info{
+    margin-top: 10px;
+}
+
+.crops_info h4{
+    text-align: center;
+    background-color:rgb(168,228,160) ;
+    color: rgb(45, 43, 43);
+    padding: 10px 0px 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 20px;
+}
+
+.holder{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    background-color:  rgb(168,228,160);
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.holder .image_holder{
+    width:50%;
+    height:400px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.image_holder img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.holder .content li{
+    padding-bottom: 20px;
+}
+.holder .content{
+    width:50%;
+    height:400px;
+    padding: 30px 30px 30px 30px;
+    font-size: 18px;
+    color: #0f0000;
+    overflow: scroll;
+}
+
+.holder .content i{
+    font-size: 22px;
+    color: #0f0000;
+}
+
+.image_holder img:hover{
+    width:600px;
+    height: 500px;
+    transition: 1s ease-in-out;
+    
+}
+
+.info{
+    width: 50%;
+    height: 400px;
+    overflow: scroll;
+}
+
+
+
+/* ===================  crops list =====================*/
+
+.list_intro{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53,94,59);
+}
+
+.list_intro p{
+    padding-top: 10px;
+    text-align: center;
+    width: 1000px;
+    height: 100px; 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.list_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list_text .each_list{
+    padding-left: 50px;   
+    color: rgb(240, 241, 240);
+    
+}
+
+.each_list h3{
+    font-size: 25px;
+    color:  rgb(0,66,37);
+}
+
+.list_btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.each_list_btn button{
+    width: 300px;
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 150px;
+    background-color: rgb(0,145,80);
+    color: snow;
+    font-size: 20px;
+}
+
+.each_list_btn button:hover{
+    background-color:  rgb(87, 113, 0);
+    color: snow;
+}
+
+.each_list_btn .each_list_btn_active{
+    background-color: rgb(255,165,0);
+    color: snow;
+}
+
+
+.total_crops_table{
+    margin-top: 20px;
+    
+}
+
+.total_crops_table thead{
+    background-color: rgb(46,139,87);
+    color: #fcf9f9;
+}
+
+.total_crops_table tbody{
+    background-color:  rgb(236, 248, 194);
+    color: rgb(6, 24, 0);
+    font-weight: bold;   
+}
+
+
+/* ================== rating ================== */
+
+.progress_container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.progress_container h4{
+    background-color:  rgb(255,165,0);
+    color: snow;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.pro_crop{
+    color: rgb(59, 0, 0);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 20px 20px 20px gray;
+}
+
+.pro_year{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.span_left{
+    display: inline;
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    margin-top: 0.7rem;
+    float: left;
+}
+
+.span_right{
+    display: inline;
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    margin-top: 0.7rem;
+    float: right;
+}
+
+.progress_bg{
+    background-color:     rgb(236, 248, 194);
+}
+
+
+/* ================= statistics ================*/
+ .stat_tbl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding-top: 10px;
+    background-color:  rgb(168,228,160);
+}
+
+.stat_tbl .crop_statistics{
+    margin: auto;
+    width: 1200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: snow;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.stat_img {
+    float: left;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.stat_img img{
+    width:100%;
+    height: 100%;
+    position:absolute;
+    object-fit: cover;
+}
+
+.stat_img img:hover{
+    width:450px;
+    height: 250px;
+    transition: 1s ease-in-out;
+}
+
+.stat_item{
+    float:right;
+    width: 750px;
+    height: 240px;
+}
+
+.crop_statistics h5{
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.crop_statistics select{
+    margin: 30px 10px 10px 5px;
+    border-radius: 6px;
+    background-color:  rgb(48,96,48);
+    color: #fcf9f8;
+    width: 150px;
+    height: 40px;
+   
+}
+
+.crop_statistics select option{
+    background-color: #d1dbb5;
+    color: #030303;
+} 
+
+.insert_btn{
+    margin-left: 100px;
+}
+
+.stat_link{
+    color: #270000;
+    padding-top: 10px;
+    padding-left: 100px;    
+}
+
+.table_name{
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}  
+.back_arrow{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* ====================see statistics ============================== */
+.title{
+    width: 1200px;
+    height: 50px;
+    padding-top: 5px;
+    background-color:rgb(198, 216, 135);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: rgb(45, 43, 43);
+    margin-top: 10px;
+}
+
+/* ================== Insert Statistics ======================== */
+.crop_insert_form{
+    padding-top: 10px;
+    background-color: rgb(224, 240, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.crop_insert_form h4{
+    color: #100f0f;
+    font-size: 40px;
+    text-align: center;
+}
+
+.crop_insert_form td{
+    font-size: 20px;
+}
+
+.crop_insert_form td select{
+    font-size: 15px;
+}
+
+
+/* ================content ==============*/
+
+.crop_content{
+    width: 1500px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.crop_content .create button{
+    width: 150px;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    background-color: rgb(46,139,87);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #fdfbfb;
+    font-size: 14px;
+	font-weight: bold;
+    text-transform: uppercase;
+	transition: transform 1s ease-in;
+    border-radius: 10px;
+}
+
+.create button:hover{
+    background-color: rgb(53,94,59);
+}
+
+.create:active {
+	transform: scale(0.95);
+}
+
+.crop_option .option_tbl{
+    margin-top: 10px;
+    width: 1500px;
+    background-color:rgb(235, 250, 182);
+    color: #060606;
+    padding-right: 10px;
+
+}
+
+.option_tbl thead{
+    background-color: rgb(46,139,87);
+    color: #ffffff;
+    font-size: 18px;
+	font-weight: bold;
+    
+}
+
+.start_life{
+    width: 200px;
+}
+
+.option_tbl tbody{
+    color: #0f0f0f;
+    font-size: 18px;
+    background:rgb(236, 248, 194);
+    
+
+}
+
+.content_img{
+    width: 200px;
+    height: 150px;
+}
+.content_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* ============= create content=================== */
+
+.content_btn{
+    width: 900px;
+    height: 40px;
+	background-color: rgb(0,145,80);
+    border-radius: 10px;
+    margin-top: 20px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fcf7f7;
+    font-size: 18px;
+	font-weight: bold;
+    text-transform: uppercase;
+	transition: transform 1s ease-in;
+}
+
+.content_btn:hover {
+    border: 3px solid rgb(141, 139, 139);
+    background-color: rgb(236, 248, 194);
+    color: rgb(10, 10, 10);
+
+}
+
+.crop_insert_form .content_image{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+
+.crop_insert_form .content_image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ========================Recommendations ==========================  */
+
+/* ================ alert box =================== */
+
